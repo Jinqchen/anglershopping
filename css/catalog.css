@@ -1,0 +1,48 @@
+.catalog{
+    height: 123220px;
+}
+
+.catalog-logo{
+    float: left;
+    width: 62px;
+    height: 62px;
+    margin-top: 22px;
+   
+   
+}
+.catalog-logo a{
+    width: 62px;
+    height: 62px;
+    
+}
+.catalog-nav{
+    float: left;
+    
+   
+    width: 620px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.catalog-nav .list{
+    width: 820px;
+    height: 88px;
+
+}
+.catalog-nav .list .nav-item{
+    float: left;
+}
+.catalog-nav .list .nav-item a:hover{
+   color:rgb(72, 191, 76);
+}
+.catalog-nav .list .nav-item a{
+    color:black;
+    padding: 10px;;
+ }
+.catalog-search{
+    float: right;
+    border: 1px solid black;
+    width: 300px;
+    height: 62px;
+    margin-top: 30px;
+}

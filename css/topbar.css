@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+.topbar{
+    background-color: #333;
+    height: 40px;
+}
+
+.container::before , .container::after{
+    content: "";
+    display: table;
+}
+.container::after{
+    clear:both;
+}
+
+.topbar a{
+    color: white;
+    font-size: 12;
+}
+.topbar a:hover{
+    color: #b0b0b0
+}
+.container{
+   
+    margin: 0 auto;
+    width: 1226px;
+
+}
+.topbar-nav{
+    float: left;
+    line-height: 40px;
+}
+.topbar-info, .topbar-cart{
+    float:right ;
+    line-height: 40px;
+}
+.topbar-cart a {
+    display: block;
+    text-align: center;
+    background-color: #424242;
+    width: 150px;
+}
+.topbar-cart a:hover{
+    background-color: white;
+    color: red;
+}
+
