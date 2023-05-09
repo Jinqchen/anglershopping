@@ -1,0 +1,32 @@
+.search{
+    
+    
+}
+
+.search-bar{
+    position: relative;
+    margin-left: 550px;
+    width: 300px;
+    height: 62px;
+    margin-top: 1px;
+}
+.search-bar .search-form .search-input{
+    position:absolute;
+    top:0;
+    right: 51px;
+    width:500px;
+    height:45px;
+    border: 1px solid #080809;
+}
+.search-bar .search-form .search-submit{
+    position:absolute;
+    top:0;
+    right:0;
+    width:52px;
+    height:45px;
+    border: 1px solid #080809;
+}
+
+.search-bar .search-form .search-submit:hover{
+    background-color: aqua;
+}

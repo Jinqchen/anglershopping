@@ -1,5 +1,5 @@
 .catalog{
-    height: 123220px;
+    /*height: 100px;*/
 }
 
 .catalog-logo{
@@ -22,7 +22,7 @@
     width: 620px;
     height: 100px;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 100px;
 }
 .catalog-nav .list{
     width: 820px;
@@ -39,10 +39,3 @@
     color:black;
     padding: 10px;;
  }
-.catalog-search{
-    float: right;
-    border: 1px solid black;
-    width: 300px;
-    height: 62px;
-    margin-top: 30px;
-}

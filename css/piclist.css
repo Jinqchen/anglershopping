@@ -1,0 +1,15 @@
+.pic li{
+    
+   float: left;
+    width: 270px;
+    height: 190px;
+    background-color: yellow;
+    border: 1px solid black;
+    margin-right: 13px;
+    margin-bottom: 13px;
+}
+.pic ul{
+    margin-right: -13px;
+    border:1xp solid black;
+    list-style-type: none;
+}
