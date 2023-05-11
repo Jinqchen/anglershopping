@@ -25,17 +25,38 @@
     margin-left: 100px;
 }
 .catalog-nav .list{
-    width: 820px;
-    height: 88px;
+    width: 900px;
+    height: 68px;
+    background-color: rgb(84, 74, 74);
+    
+   
 
 }
-.catalog-nav .list .nav-item{
+/*.catalog-nav .list .nav-item{
     float: left;
-}
-.catalog-nav .list .nav-item a:hover{
+    color: rgb(236, 219, 219);
+}*/
+/*.catalog-nav .list .nav-item a:hover{
    color:rgb(72, 191, 76);
-}
-.catalog-nav .list .nav-item a{
-    color:black;
-    padding: 10px;;
+}*/
+/*.catalog-nav .list .nav-item a{
+    display: block;
+    float: left;
+    color:rgb(247, 243, 243);
+    padding: 20px;;
+    width: 9.5%;
+    cursor: pointer;
+ }*/
+ .catalog-nav .list li{
+    display: block;
+    float: left;
+    color:rgb(247, 243, 243);
+    height: 68px;
+    width: 13%;
+    cursor: pointer;
+    line-height: 68px;;
+    text-align: center;
+ }
+ .catalog .list .active{
+    background-color: red;
  }
