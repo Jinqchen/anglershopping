@@ -43,3 +43,9 @@ function gotocatalog(){
         }
     }
 }
+
+function openForm() {
+    let emial = prompt("Email:");
+    let pas=prompt("Passward:")
+    
+  }
